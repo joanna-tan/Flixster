@@ -9,6 +9,8 @@ import java.util.List;
 
 //java object to encapsulate Movie
 public class Movie {
+
+    String backdropPath;
     String posterPath;
     String title;
     String overview;
@@ -21,6 +23,10 @@ public class Movie {
         return String.format("https://image.tmdb.org/t/p/w342/%s", posterPath);
     }
 
+    public String getBackdropPath() {
+        return String.format("https://image.tmdb.org/t/p/w342/%s", backdropPath);
+    }
+
     public String getOverview() {
         return overview;
     }
@@ -31,6 +37,7 @@ public class Movie {
 
     // if fail, call a method to handle the exception
     public Movie(JSONObject jsonObject) throws JSONException {
+        backdropPath = jsonObject.getString("backdrop_path");
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
