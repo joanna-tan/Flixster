@@ -17,6 +17,7 @@ public class Movie {
     //make API request to configurations, figure out sizes of images available, append to base URL
         //then append poster path
     public String getPosterPath() {
+        // TODO: figure out how to retrieve poster configs without hardcoding path
         return String.format("https://image.tmdb.org/t/p/w342/%s", posterPath);
     }
 
