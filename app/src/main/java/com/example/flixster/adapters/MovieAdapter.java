@@ -90,6 +90,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                 imageUrl = movie.getBackdropPath();
                 Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
                 //Glide.with(context).load(imageUrl).into(ivPoster);
+                //Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).override(Target.SIZE_ORIGINAL, 1000).into(ivPoster);
 
             }
             else {
