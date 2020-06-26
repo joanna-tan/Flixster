@@ -88,19 +88,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
             if (context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
                 imageUrl = movie.getBackdropPath();
+                Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
+                //Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
+
             }
             else {
                 imageUrl = movie.getPosterPath();
+                Glide.with(context).load(imageUrl).placeholder(R.mipmap.poster_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
             }
-
-            //String placeholderUrl = "https://courses.codepath.org/course_files/android_university_fast_track/assets/flicks_movie_placeholder.gif";
-            Glide.with(context).load(imageUrl).placeholder(R.mipmap.poster_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
-                    //getPlaceholderDrawable().into(ivPoster);
-
-            //Glide.with(context).load(placeholderUrl).placeholder(R.drawable.ic_launcher_background).into(ivPoster);
-            //Glide.with(context).load(placeholderUrl).placeholder(R.drawable.placeholder).into(ivPoster);
-
-            //Glide.with(context).load("").into(ivPoster);
+            
             //Glide.with(context).load(imageUrl).into(ivPoster);
 
         }
