@@ -3,17 +3,33 @@ package com.example.flixster.models;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.util.ArrayList;
 import java.util.List;
 
 //java object to encapsulate Movie
+@Parcel
 public class Movie {
 
     String backdropPath;
     String posterPath;
     String title;
     String overview;
+    Double voteAverage;
+
+    public Movie() {
+
+    }
+    // if fail, call a method to handle the exception
+    public Movie(JSONObject jsonObject) throws JSONException {
+        backdropPath = jsonObject.getString("backdrop_path");
+        posterPath = jsonObject.getString("poster_path");
+        title = jsonObject.getString("title");
+        overview = jsonObject.getString("overview");
+        voteAverage = jsonObject.getDouble("vote_average");
+    }
+
 
     //hard coded for size
     //make API request to configurations, figure out sizes of images available, append to base URL
@@ -35,12 +51,8 @@ public class Movie {
         return title;
     }
 
-    // if fail, call a method to handle the exception
-    public Movie(JSONObject jsonObject) throws JSONException {
-        backdropPath = jsonObject.getString("backdrop_path");
-        posterPath = jsonObject.getString("poster_path");
-        title = jsonObject.getString("title");
-        overview = jsonObject.getString("overview");
+    public Double getVoteAverage() {
+        return voteAverage;
     }
 
     //creates list of movies from a JSON array from the Movie API
@@ -51,4 +63,5 @@ public class Movie {
         }
         return movies;
     }
+
 }
