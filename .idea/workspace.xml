@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/walkthrough_pop.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593295348705</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed to add popularity to movie details">
+      <created>1593295840584</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593295840584</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,10 +307,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="1232" y="303" key="AndroidProcessChooserDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593021922969" />
-    <state x="730" y="148" key="CommitChangelistDialog2" timestamp="1593295348631">
+    <state x="730" y="148" key="CommitChangelistDialog2" timestamp="1593295839297">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="730" y="148" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593295348631" />
+    <state x="730" y="148" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593295839297" />
     <state x="359" y="128" key="DiffContextDialog" timestamp="1593200691696">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -345,10 +351,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1259" height="341" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1593193237097" />
-    <state x="954" y="271" key="Vcs.Push.Dialog.v2" timestamp="1593295364694">
+    <state x="954" y="271" key="Vcs.Push.Dialog.v2" timestamp="1593295846841">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="954" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1593295364694" />
+    <state x="954" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1593295846841" />
     <state x="591" y="123" width="1101" height="817" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593199501095">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
