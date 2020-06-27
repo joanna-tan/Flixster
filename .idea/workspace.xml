@@ -10,16 +10,22 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb47e6b-56f3-43a7-8e1c-9f331b460588" name="Default Changelist" comment="Movie Trailer class">
+    <list default="true" id="1fb47e6b-56f3-43a7-8e1c-9f331b460588" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/models/MovieDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/models/MovieDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_movie_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_movie_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593209046364</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added walkthrough gif">
+      <created>1593231792470</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593231792470</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,13 +253,14 @@
     <MESSAGE value="Required user stories implemented" />
     <MESSAGE value="Untrack files" />
     <MESSAGE value="Movie Trailer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movie Trailer class" />
+    <MESSAGE value="Added walkthrough gif" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added walkthrough gif" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1188" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1593193439582">
+    <state x="1188" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1593294062719">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="1188" y="239" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1593193439582" />
+    <state x="1188" y="239" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1593294062719" />
     <state x="879" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593186524733">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -259,18 +273,18 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="922" y="293" key="AndroidCreateResourceFileDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593200970645" />
-    <state x="1224" y="385" key="AndroidCreateXmlResourceDialog" timestamp="1593194453107">
+    <state x="1224" y="385" key="AndroidCreateXmlResourceDialog" timestamp="1593294576420">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="1224" y="385" key="AndroidCreateXmlResourceDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593194453107" />
+    <state x="1224" y="385" key="AndroidCreateXmlResourceDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593294576420" />
     <state x="1232" y="303" key="AndroidProcessChooserDialog" timestamp="1593021922969">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="1232" y="303" key="AndroidProcessChooserDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593021922969" />
-    <state x="730" y="148" key="CommitChangelistDialog2" timestamp="1593231698884">
+    <state x="730" y="148" key="CommitChangelistDialog2" timestamp="1593294923111">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="730" y="148" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593231698884" />
+    <state x="730" y="148" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593294923111" />
     <state x="359" y="128" key="DiffContextDialog" timestamp="1593200691696">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -311,10 +325,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1259" height="341" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1593193237097" />
-    <state x="954" y="271" key="Vcs.Push.Dialog.v2" timestamp="1593196120327">
+    <state x="954" y="271" key="Vcs.Push.Dialog.v2" timestamp="1593231814454">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="954" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1593196120327" />
+    <state x="954" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1593231814454" />
     <state x="591" y="123" width="1101" height="817" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593199501095">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -327,10 +341,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="1018" y="364" key="com.intellij.ide.util.TipDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593185526482" />
-    <state x="33" y="287" width="693" height="488" key="find.popup" timestamp="1593200572560">
+    <state x="33" y="287" width="693" height="488" key="find.popup" timestamp="1593294178158">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="33" y="287" width="693" height="488" key="find.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1593200572560" />
+    <state x="33" y="287" width="693" height="488" key="find.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1593294178158" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1593191109353">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>

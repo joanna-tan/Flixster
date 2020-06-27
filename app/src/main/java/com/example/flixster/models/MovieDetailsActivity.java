@@ -22,6 +22,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         // the view objects
         TextView tvTitle;
         TextView tvOverview;
+        TextView tvPopularity;
         RatingBar rbVoteAverage;
 
         @Override
@@ -32,6 +33,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
             tvTitle = (TextView) findViewById(R.id.tvTitle);
             tvOverview = (TextView) findViewById(R.id.tvOverview);
             rbVoteAverage = (RatingBar) findViewById(R.id.rbVoteAverage);
+            tvPopularity = (TextView) findViewById(R.id.tvPopularity);
 
             // unwrap the movie passed in via intent, using its simple name as a key
             movie = (Movie) Parcels.unwrap(getIntent().getParcelableExtra(Movie.class.getSimpleName()));
@@ -40,6 +42,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
             // set the title and overview
             tvTitle.setText(movie.getTitle());
             tvOverview.setText(movie.getOverview());
+            tvPopularity.setText("Popularity: " +movie.getPopularity().toString());
 
             // vote average is 0..10, convert to 0..5 by dividing by 2
             float voteAverage = movie.getVoteAverage().floatValue();

@@ -17,11 +17,14 @@ public class Movie {
     String title;
     String overview;
     Double voteAverage;
+    Double popularity;
     Integer id;
 
     public Movie() {
 
     }
+
+
     // if fail, call a method to handle the exception
     public Movie(JSONObject jsonObject) throws JSONException {
         backdropPath = jsonObject.getString("backdrop_path");
@@ -30,6 +33,7 @@ public class Movie {
         overview = jsonObject.getString("overview");
         voteAverage = jsonObject.getDouble("vote_average");
         id = jsonObject.getInt("id");
+        popularity = jsonObject.getDouble("popularity");
     }
 
 
@@ -55,6 +59,10 @@ public class Movie {
 
     public Double getVoteAverage() {
         return voteAverage;
+    }
+
+    public Double getPopularity() {
+        return popularity;
     }
 
     //creates list of movies from a JSON array from the Movie API
