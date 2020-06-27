@@ -10,7 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb47e6b-56f3-43a7-8e1c-9f331b460588" name="Default Changelist" comment="Fixed to add popularity to movie details">
+    <list default="true" id="1fb47e6b-56f3-43a7-8e1c-9f331b460588" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593296749723</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fixed to add popularity to movie details">
+      <created>1593296993574</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593296993574</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge branch">
+      <created>1593297109224</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593297109224</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +302,8 @@
     <MESSAGE value="Movie Trailer class" />
     <MESSAGE value="Added walkthrough gif" />
     <MESSAGE value="Fixed to add popularity to movie details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed to add popularity to movie details" />
+    <MESSAGE value="Merge branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="197" key="#Notifications" timestamp="1593295428518">
@@ -319,10 +334,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="1232" y="303" key="AndroidProcessChooserDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593021922969" />
-    <state x="730" y="148" key="CommitChangelistDialog2" timestamp="1593296993490">
+    <state x="730" y="137" key="CommitChangelistDialog2" timestamp="1593297109149">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="730" y="148" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593296993490" />
+    <state x="730" y="137" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593297109149" />
     <state x="359" y="128" key="DiffContextDialog" timestamp="1593200691696">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
