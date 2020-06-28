@@ -24,7 +24,6 @@ public class Movie {
 
     }
 
-
     // if fail, call a method to handle the exception
     public Movie(JSONObject jsonObject) throws JSONException {
         backdropPath = jsonObject.getString("backdrop_path");
@@ -47,6 +46,10 @@ public class Movie {
 
     public String getBackdropPath() {
         return String.format("https://image.tmdb.org/t/p/w342/%s", backdropPath);
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public String getOverview() {

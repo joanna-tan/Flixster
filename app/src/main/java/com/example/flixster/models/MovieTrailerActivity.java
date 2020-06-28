@@ -1,5 +1,6 @@
 package com.example.flixster.models;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -16,8 +17,11 @@ public class MovieTrailerActivity extends YouTubeBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_trailer);
 
+        Intent intent = getIntent();
+        String youtubeKey = intent.getStringExtra("youtubeKey");
+
         // temporary test video id -- TODO replace with movie trailer video id
-        final String videoId = "tKodtNFpzBA";
+        final String videoId = intent.getStringExtra("youtubeKey");
 
         // resolve the player view from the layout
         YouTubePlayerView playerView = (YouTubePlayerView) findViewById(R.id.player);
