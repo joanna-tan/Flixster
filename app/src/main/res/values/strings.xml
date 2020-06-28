@@ -3,4 +3,7 @@
     <string name="movie_title">Movie Title</string>
     <string name="textview">TextView</string>
     <string name="tv_popularity">Popularity</string>
+    <string name="thumnail">thumnail</string>
+    <string name="playButton">playButton</string>
+    <string name="thumbnail">thumbnail</string>
 </resources>
