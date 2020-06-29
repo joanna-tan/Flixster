@@ -97,20 +97,14 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                 Log.i("yeps", imageUrl);
 
                 //Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
-                //Glide.with(context).load(imageUrl).into(ivPoster);
                 GlideApp.with(context).load(imageUrl).transform(new RoundedCornersTransformation(radius, margin)).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
-                //Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
-
             }
             else {
                 imageUrl = movie.getPosterPath();
                 GlideApp.with(context).load(imageUrl).transform(new RoundedCornersTransformation(10, 1)).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
-
                 //Glide.with(context).load(imageUrl).placeholder(R.mipmap.poster_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
             }
-
             //Glide.with(context).load(imageUrl).into(ivPoster);
-
         }
 
         @Override

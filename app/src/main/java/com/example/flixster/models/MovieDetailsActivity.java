@@ -20,6 +20,7 @@ import org.json.JSONObject;
 import org.parceler.Parcel;
 import org.parceler.Parcels;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 import okhttp3.Headers;
 
 public class MovieDetailsActivity extends AppCompatActivity {
@@ -49,19 +50,23 @@ public class MovieDetailsActivity extends AppCompatActivity {
 
             // unwrap the movie passed in via intent, using its simple name as a key
             movie = (Movie) Parcels.unwrap(getIntent().getParcelableExtra(Movie.class.getSimpleName()));
+            assert movie != null;
             Log.d(TAG, String.format("Showing details for '%s'", movie.getTitle()));
 
             // set the title and overview
             tvTitle.setText(movie.getTitle());
             tvOverview.setText(movie.getOverview());
-            tvPopularity.setText("Popularity: " + movie.getPopularity().toString());
+            tvPopularity.setText(String.format("Popularity: %s", movie.getPopularity().toString()));
             String imageUrl = movie.getBackdropPath();
-            Glide.with(getApplicationContext()).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).into(thumbnail);
+            GlideApp.with(getApplicationContext()).load(imageUrl).transform(new RoundedCornersTransformation(30, 0)).placeholder(R.mipmap.backdrop_placeholder_foreground).into(thumbnail);
+
+            //Glide.with(getApplicationContext()).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).into(thumbnail);
 
 
             // vote average is 0..10, convert to 0..5 by dividing by 2
             float voteAverage = movie.getVoteAverage().floatValue();
-            rbVoteAverage.setRating(voteAverage = voteAverage > 0 ? voteAverage / 2.0f : voteAverage);
+            rbVoteAverage.setRating(voteAverage > 0 ? (voteAverage / 2.0f) : voteAverage);
+            //rbVoteAverage.setRating(voteAverage = voteAverage > 0 ? voteAverage / 2.0f : voteAverage);
 
             AsyncHttpClient client = new AsyncHttpClient();
             client.get("https://api.themoviedb.org/3/movie/" + movie.getId() + "/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed",
