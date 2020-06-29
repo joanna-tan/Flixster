@@ -47,7 +47,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         View movieView = LayoutInflater.from(context).inflate(R.layout.item_movie, parent, false);
         return new ViewHolder(movieView);
     }
-    
+
     // Involves populating data into the item through the holder (from data at position)
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
