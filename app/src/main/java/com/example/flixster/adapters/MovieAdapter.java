@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.Target;
 import com.example.flixster.R;
+import com.example.flixster.models.GlideApp;
 import com.example.flixster.models.Movie;
 import com.example.flixster.models.MovieDetailsActivity;
 
@@ -25,6 +26,8 @@ import org.parceler.Parcel;
 import org.parceler.Parcels;
 
 import java.util.List;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
@@ -85,17 +88,25 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             String imageUrl;
             //set imageURL to backdrop img if landscape
             //if phone in portrait, set imageURL to posterpath
+            int radius = 20; // corner radius, higher value = more rounded
+            int margin = 0; // crop margin, set to 0 for corners with no crop
+
 
             if (context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
                 imageUrl = movie.getBackdropPath();
+                Log.i("yeps", imageUrl);
+
                 //Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
                 //Glide.with(context).load(imageUrl).into(ivPoster);
-                Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
+                GlideApp.with(context).load(imageUrl).transform(new RoundedCornersTransformation(radius, margin)).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
+                //Glide.with(context).load(imageUrl).placeholder(R.mipmap.backdrop_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
 
             }
             else {
                 imageUrl = movie.getPosterPath();
-                Glide.with(context).load(imageUrl).placeholder(R.mipmap.poster_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
+                GlideApp.with(context).load(imageUrl).transform(new RoundedCornersTransformation(10, 1)).placeholder(R.mipmap.backdrop_placeholder_foreground).into(ivPoster);
+
+                //Glide.with(context).load(imageUrl).placeholder(R.mipmap.poster_placeholder_foreground).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
             }
 
             //Glide.with(context).load(imageUrl).into(ivPoster);

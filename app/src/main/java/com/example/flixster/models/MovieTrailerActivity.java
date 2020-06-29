@@ -32,7 +32,8 @@ public class MovieTrailerActivity extends YouTubeBaseActivity {
             public void onInitializationSuccess(YouTubePlayer.Provider provider,
                                                 YouTubePlayer youTubePlayer, boolean b) {
                 // do any work here to cue video, play video, etc.
-                youTubePlayer.cueVideo(videoId);
+                //youTubePlayer.cueVideo(videoId);
+                youTubePlayer.loadVideo(videoId);
             }
 
             @Override
