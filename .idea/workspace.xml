@@ -11,22 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fb47e6b-56f3-43a7-8e1c-9f331b460588" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/adapters/MovieAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/adapters/MovieAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="2255fd14" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -139,6 +135,9 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593397044366</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Rounded corners walkthrough added">
+      <created>1593397300696</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1593397300696</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,7 +377,8 @@
     <MESSAGE value="Added rounded corners to posters with Glide" />
     <MESSAGE value="Added rounded corners to Youtube player" />
     <MESSAGE value="Reduced View Boilerplate with ViewBinding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduced View Boilerplate with ViewBinding" />
+    <MESSAGE value="Rounded corners walkthrough added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rounded corners walkthrough added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="197" key="#Notifications" timestamp="1593295428518">
@@ -406,10 +413,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="1232" y="303" key="AndroidProcessChooserDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593021922969" />
-    <state x="730" y="137" key="CommitChangelistDialog2" timestamp="1593397043992">
+    <state x="730" y="137" key="CommitChangelistDialog2" timestamp="1593397300353">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="730" y="137" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593397043992" />
+    <state x="730" y="137" key="CommitChangelistDialog2/0.23.1792.1017@0.23.1792.1017" timestamp="1593397300353" />
     <state x="359" y="128" key="DiffContextDialog" timestamp="1593200691696">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -454,18 +461,18 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="694" y="170" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1593381551384" />
-    <state x="954" y="271" key="Vcs.Push.Dialog.v2" timestamp="1593397056606">
+    <state x="954" y="271" key="Vcs.Push.Dialog.v2" timestamp="1597431350396">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="954" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1593397056606" />
+    <state x="954" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1597431350396" />
     <state x="591" y="123" width="1101" height="817" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593385833909">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="591" y="123" width="1101" height="817" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593385833909" />
-    <state x="582" y="123" width="1084" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593199289411">
+    <state x="582" y="123" width="1084" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593556464975">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="582" y="123" width="1084" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593199289411" />
+    <state x="582" y="123" width="1084" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593556464975" />
     <state x="1018" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1593390741867">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -474,10 +481,17 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="665" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1017@0.23.1792.1017" timestamp="1593387511793" />
-    <state x="33" y="287" width="1048" height="488" key="find.popup" timestamp="1593397013558">
+    <state x="33" y="288" width="1048" height="492" key="find.popup" timestamp="1596571585860">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="33" y="287" width="1048" height="488" key="find.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1594407240163" />
+    <state x="33" y="288" width="1048" height="490" key="find.popup/0.23.1792.1020@0.23.1792.1020" timestamp="1594407557607" />
+    <state x="33" y="288" width="1048" height="492" key="find.popup/0.23.1792.1022@0.23.1792.1022" timestamp="1596571585860" />
+    <state x="33" y="290" width="1048" height="494" key="find.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1595462262781" />
+    <state x="259" y="329" key="git4idea.merge.GitPullDialog" timestamp="1597431341373">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="33" y="287" width="1048" height="488" key="find.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1593397013558" />
+    <state x="259" y="329" key="git4idea.merge.GitPullDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1597431341373" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1593191109353">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -486,9 +500,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="997" y="154" key="refactoring.ChangeSignatureDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1593396793309" />
-    <state x="999" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1593394386023">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state x="999" y="250" width="670" height="684" key="search.everywhere.popup" timestamp="1595462258031">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="999" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1593394386023" />
+    <state x="999" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1594224183587" />
+    <state x="999" y="250" width="670" height="684" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1595462258031" />
   </component>
 </project>
